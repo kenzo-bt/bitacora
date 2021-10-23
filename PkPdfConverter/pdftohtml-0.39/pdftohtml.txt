@@ -1,0 +1,24 @@
+pdftohtml version 0.39 http://pdftohtml.sourceforge.net/, based on Xpdf version 3.00
+Copyright 1999-2003 Gueorgui Ovtcharov and Rainer Dorsch
+Copyright 1996-2004 Glyph & Cog, LLC
+
+Usage: pdftohtml [options] <PDF-file> [<html-file> <xml-file>]
+  -f <int>          : first page to convert
+  -l <int>          : last page to convert
+  -q                : don't print any messages or errors
+  -h                : print usage information
+  -help             : print usage information
+  -p                : exchange .pdf links by .html
+  -c                : generate complex document
+  -i                : ignore images
+  -noframes         : generate no frames
+  -stdout           : use standard output
+  -zoom <fp>        : zoom the pdf document (default 1.5)
+  -xml              : output for XML post-processing
+  -hidden           : output hidden text
+  -nomerge          : do not merge paragraphs
+  -enc <string>     : output text encoding name
+  -dev <string>     : output device name for Ghostscript (png16m, jpeg etc)
+  -v                : print copyright and version info
+  -opw <string>     : owner password (for encrypted files)
+  -upw <string>     : user password (for encrypted files)

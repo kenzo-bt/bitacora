@@ -1,0 +1,866 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PkPDFConverter\n"
+"POT-Creation-Date: 2009-02-06 17.42\n"
+"PO-Revision-Date: 2009-02-06 18:44+0100\n"
+"Last-Translator: PkLab.net - Meccatronica <web@pklab.net>\n"
+"Language-Team: PkLab.net <web@pklab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.2\n"
+"X-Poedit-Basepath: Z:\\Pineta\\Progetti\\PkPDFConverter\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#. AboutF..Caption
+#: About.dfm:6
+msgid "Product Name"
+msgstr "Product Name"
+
+#. AboutF..Label1..Caption
+#. AboutF..GroupBox1..Label2..Caption
+#. AboutF..GroupBox2..Label9..Caption
+#: About.dfm:91
+#: About.dfm:130
+#: About.dfm:207
+msgid "For more information see:"
+msgstr "For more information see:"
+
+#. AboutF..GroupBox1..Label7..Caption
+#: About.dfm:152
+msgid "Xpdf tools version 3.02"
+msgstr "Xpdf tools version 3.02"
+
+#. AboutF..GroupBox2..Label6..Caption
+#: About.dfm:194
+msgid "pdftohtml version 0.39 based on Xpdf version 3.00"
+msgstr "pdftohtml version 0.39 based on Xpdf version 3.00"
+
+#. MainF..pnLeft..pnInput..Caption
+#: Main.dfm:35
+msgid "Choose PDF Input File"
+msgstr "Choose PDF Input File"
+
+#. MainF..pnLeft..pnInput..Label8..Caption
+#. MainF..pnLeft..pnInput..edPdfFileName..DialogTitle
+#: Main.dfm:103
+#: Main.dfm:170
+msgid "PDF Source File:"
+msgstr "PDF Source File:"
+
+#. MainF..pnLeft..pnInput..Label1..Caption
+#: Main.dfm:118
+msgid "The page to Read"
+msgstr "The page to Read"
+
+#. MainF..pnLeft..pnInput..Label6..Caption
+#: Main.dfm:127
+msgid "PDF User password"
+msgstr "PDF User password"
+
+#. MainF..pnLeft..pnInput..Label5..Caption
+#: Main.dfm:136
+msgid "PDF Owner  password"
+msgstr "PDF Owner  password"
+
+#. MainF..pnLeft..pnInput..Label2..Caption
+#: Main.dfm:146
+msgid "From:"
+msgstr "From:"
+
+#. MainF..pnLeft..pnInput..Label3..Caption
+#: Main.dfm:154
+msgid "To:"
+msgstr "To:"
+
+#. MainF..pnLeft..pnInput..edPdfFileName..Hint
+#: Main.dfm:161
+msgid "PDF File name to convert"
+msgstr "PDF File name to convert"
+
+#. MainF..pnLeft..pnInput..edPdfFileName..Filter
+#: Main.dfm:168
+msgid "PDF Files (*.PDF)|*.pdf"
+msgstr "PDF Files (*.PDF)|*.pdf"
+
+#. MainF..pnLeft..pnInput..edPdfFileName..ButtonHint
+#: Main.dfm:171
+msgid "Browse for desired PDF file"
+msgstr "Browse for desired PDF file"
+
+#. MainF..pnLeft..pnInput..iFirstPage..Hint
+#: Main.dfm:181
+msgid "First page to convert"
+msgstr "First page to convert"
+
+#. MainF..pnLeft..pnInput..iLastPage..Hint
+#: Main.dfm:192
+msgid "Last page to convert"
+msgstr "Last page to convert"
+
+#. MainF..pnLeft..pnInput..tUpw..Hint
+#: Main.dfm:203
+msgid "The password to access to the PDF file."
+msgstr "The password to access to the PDF file."
+
+#. MainF..pnLeft..pnInput..tOpw....Hint
+#: Main.dfm:217
+msgid "The owner password for the PDF file. This will bypass all security restrictions."
+msgstr "The owner password for the PDF file. This will bypass all security restrictions."
+
+#. MainF..pnLeft..pnOutput..Caption
+#: Main.dfm:232
+msgid "Choose Output"
+msgstr "Choose Output"
+
+#. MainF..pnLeft..pnOutput..Label12..Caption
+#: Main.dfm:303
+msgid "Choose conversion:"
+msgstr "Choose conversion:"
+
+#. MainF..pnLeft..pnOutput..Label9..Caption
+#: Main.dfm:316
+msgid "Save In:"
+msgstr "Save In:"
+
+#. MainF..pnLeft..pnOutput..cbConvertion..Hint
+#: Main.dfm:331
+msgid "Select the desired conversion"
+msgstr "Select the desired conversion"
+
+#. MainF..pnLeft..pnOutput..cbConvertion......Text
+#: Main.dfm:347
+msgid "PDF -> Text"
+msgstr "PDF -> Text"
+
+#. MainF..pnLeft..pnOutput..cbConvertion......Text
+#: Main.dfm:353
+msgid "PDF -> Images (one per page)"
+msgstr "PDF -> Images (one per page)"
+
+#. MainF..pnLeft..pnOutput..cbConvertion......Text
+#: Main.dfm:359
+msgid "PDF -> Images (extract all images from PDF)"
+msgstr "PDF -> Images (extract all images from PDF)"
+
+#. MainF..pnLeft..pnOutput..cbConvertion......Text
+#: Main.dfm:365
+msgid "PDF -> HTML"
+msgstr "PDF -> HTML"
+
+#. MainF..pnLeft..pnOutput..btAdvSettings..Hint
+#: Main.dfm:373
+msgid "Open advanced settings for the conversion"
+msgstr "Open advanced settings for the conversion"
+
+#. MainF..pnLeft..pnOutput..btAdvSettings..Caption
+#. SettingsF..Caption
+#: Main.dfm:374
+#: Settings.dfm:7
+msgid "Advanced Settings..."
+msgstr "Advanced Settings..."
+
+#. MainF..pnLeft..pnOutput..btGo..Hint
+#: Main.dfm:391
+msgid "Start desired conversion!"
+msgstr "Start desired conversion!"
+
+#. MainF..pnLeft..pnOutput..btGo..Caption
+#: Main.dfm:392
+msgid "Convert !"
+msgstr "Convert !"
+
+#. MainF..pnLeft..pnOutput..edOutRootFile..Hint
+#: Main.dfm:410
+msgid "Destination file name"
+msgstr "Destination file name"
+
+#. MainF..pnLeft..pnOutput..btSelectOutRoot..Hint
+#: Main.dfm:424
+msgid "Select destination filename..."
+msgstr "Select destination filename..."
+
+#. MainF..ToolBar1..btSettings..Caption
+#: Main.dfm:450
+msgid "Settings"
+msgstr "Settings"
+
+#. MainF..ToolBar1..btPdfToText..Hint
+#: Main.dfm:464
+msgid "Direct convert a Pdf To a text file"
+msgstr "Direct convert a Pdf To a text file"
+
+#. MainF..ToolBar1..btPdfToPpm..Hint
+#: Main.dfm:472
+msgid "Direct convert Pdf pages To images"
+msgstr "Direct convert Pdf pages To images"
+
+#. MainF..ToolBar1..btPdfToImg..Hint
+#: Main.dfm:480
+msgid "Direct Extract images from PDF file"
+msgstr "Direct Extract images from PDF file"
+
+#. MainF..ToolBar1..btPdfToHtml..Hint
+#: Main.dfm:488
+msgid "Direct convert Pdf To Html files"
+msgstr "Direct convert Pdf To Html files"
+
+#. MainF..ToolBar1..btPdfToHtml..Caption
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..JvInstallLabel2....Lines.Strings
+#: Main.dfm:489
+#: Settings.dfm:150
+msgid "PdfToHtml"
+msgstr "PdfToHtml"
+
+#. MainF..ToolBar1..btAbout..Hint
+#: Main.dfm:503
+msgid "About..."
+msgstr "About..."
+
+#. MainF..ToolBar1..btAbout..Caption
+#: Main.dfm:504
+msgid "About"
+msgstr "About"
+
+#. MainF..ToolBar1..btClose..Hint
+#: Main.dfm:518
+msgid "Close Application and exit"
+msgstr "Close Application and exit"
+
+#. MainF..ToolBar1..btClose..Caption
+#: Main.dfm:519
+msgid "Close"
+msgstr "Close"
+
+#. MainF..pnMain..Caption
+#: Main.dfm:531
+msgid "View Output"
+msgstr "View Output"
+
+#. MainF..pnMain..PageViewer..TabSheet1..Caption
+#: Main.dfm:606
+msgid "Text Viewer"
+msgstr "Text Viewer"
+
+#. MainF..pnMain..PageViewer..TabSheet2..Caption
+#: Main.dfm:625
+msgid "Image Viewer"
+msgstr "Image Viewer"
+
+#. MainF..pnMain..PageViewer..TabSheet2..Panel1..lbImgFileName..Caption
+#: Main.dfm:650
+msgid "Image File Name"
+msgstr "Image File Name"
+
+#. MainF..pnMain..PageViewer..TabSheet2..Panel1..ToolBar2..btImgSave..Hint
+#: Main.dfm:670
+msgid "Save As..."
+msgstr "Save As..."
+
+#. MainF..pnMain..PageViewer..TabSheet4..Caption
+#: Main.dfm:741
+msgid "HTML Viewer"
+msgstr "HTML Viewer"
+
+#. MainF..pnMain..PageViewer..TabSheet4..lbHtml..Caption
+#: Main.dfm:750
+msgid "Click here to open it with your browser"
+msgstr "Click here to open it with your browser"
+
+#. MainF..pnMain..JvCaptionPanel1..Caption
+#: Main.dfm:785
+msgid "Command Window"
+msgstr "Command Window"
+
+#. SettingsF..lbModuleNotActive..Caption
+#: Settings.dfm:28
+msgid "Module not active (check folders in general settings)"
+msgstr "Module not active (check folders in general settings)"
+
+#. SettingsF..PageControl1..tsGeneral..Caption
+#: Settings.dfm:47
+msgid "General"
+msgstr "General"
+
+#. SettingsF..PageControl1..tsGeneral..Label6..Caption
+#: Settings.dfm:55
+msgid "Interface Language:"
+msgstr "Interface Language:"
+
+#. SettingsF..PageControl1..tsGeneral..cbLanguage..Hint
+#: Settings.dfm:62
+msgid "Choose language interface"
+msgstr "Choose language interface"
+
+#. SettingsF..PageControl1..tsGeneral..cbLanguage..Text
+#. SettingsF..PageControl1..tsGeneral..cbLanguage....Items.Strings
+#. SettingsF..PageControl1..tsPdfToTxt..cbEol....Items.Strings
+#. SettingsF..PageControl1..tsPdfToTxt..cbEncoding....Items.Strings
+#. SettingsF..PageControl1..tsPdfToHtml..cbGsDevice....Items.Strings
+#. SettingsF..PageControl1..tsPdfToHtml..cbHEnc..Text
+#. SettingsF..PageControl1..tsPdfToHtml..cbHEnc....Items.Strings
+#: Settings.dfm:67
+#: Settings.dfm:70
+#: Settings.dfm:230
+#: Settings.dfm:247
+#: Settings.dfm:475
+#: Settings.dfm:584
+#: Settings.dfm:586
+msgid "Default"
+msgstr "Default"
+
+#. SettingsF..PageControl1..tsGeneral..cbLanguage....Items.Strings
+#: Settings.dfm:71
+msgid "Italian"
+msgstr "Italian"
+
+#. SettingsF..PageControl1..tsGeneral..cbLanguage....Items.Strings
+#: Settings.dfm:72
+msgid "English"
+msgstr "English"
+
+# IGNORE
+#. SettingsF..PageControl1..tsGeneral..GroupBox3..Caption
+#: Settings.dfm:79
+msgid "XPdf"
+msgstr "XPdf"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox3..lbXpdfPath..Caption
+#: Settings.dfm:86
+msgid "Xpdf Folder:"
+msgstr "Xpdf Folder:"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox3..JvInstallLabel1....Lines.Strings
+#: Settings.dfm:97
+msgid "Pdf To Text"
+msgstr "Pdf To Text"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox3..JvInstallLabel1....Lines.Strings
+#: Settings.dfm:98
+msgid "Pdf Info"
+msgstr "Pdf Info"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox3..JvInstallLabel1....Lines.Strings
+#: Settings.dfm:99
+msgid "Pdf To Ppm"
+msgstr "Pdf To Ppm"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox3..JvInstallLabel1....Lines.Strings
+#: Settings.dfm:100
+msgid "Pdf To Images"
+msgstr "Pdf To Images"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox3..edXpdfPath..Hint
+#: Settings.dfm:108
+msgid "Home folder of xPDF tools"
+msgstr "Home folder of xPDF tools"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox3..edXpdfPath..Filter
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..edPdfToHtmlPath..Filter
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..edGhostScriptPath..Filter
+#: Settings.dfm:113
+#: Settings.dfm:165
+#: Settings.dfm:182
+msgid "Executables files (*.exe)|*.exe|All files (*.*)|*.*"
+msgstr "Executables files (*.exe)|*.exe|All files (*.*)|*.*"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..Caption
+#: Settings.dfm:125
+msgid "Pdf To Html"
+msgstr "Pdf To Html"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..lbPdfToHtmlPath..Caption
+#: Settings.dfm:132
+msgid "PdfToHtml Folder:"
+msgstr "PdfToHtml Folder:"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..lbGhostScriptPath..Caption
+#: Settings.dfm:139
+msgid "Aladdin Ghostscript Folder:"
+msgstr "Aladdin Ghostscript Folder:"
+
+# IGNORE
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..JvInstallLabel2....Lines.Strings
+#: Settings.dfm:151
+msgid "GS"
+msgstr "GS"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..edPdfToHtmlPath..Hint
+#: Settings.dfm:159
+msgid "Home folder of Pdftohtml"
+msgstr "Home folder of Pdftohtml"
+
+#. SettingsF..PageControl1..tsGeneral..GroupBox4..edGhostScriptPath..Hint
+#: Settings.dfm:176
+msgid "Home folder of Ghostscript tools"
+msgstr "Home folder of Ghostscript tools"
+
+#. SettingsF..PageControl1..tsPdfToTxt..Caption
+#: Settings.dfm:191
+msgid "PDF to Text"
+msgstr "PDF to Text"
+
+#. SettingsF..PageControl1..tsPdfToTxt..Label4..Caption
+#: Settings.dfm:198
+msgid "End-of-line convention"
+msgstr "End-of-line convention"
+
+#. SettingsF..PageControl1..tsPdfToTxt..Label3..Caption
+#: Settings.dfm:205
+msgid "Encoding to use for  text  output"
+msgstr "Encoding to use for  text  output"
+
+#. SettingsF..PageControl1..tsPdfToTxt..bNopgbrk..Hint
+#: Settings.dfm:212
+msgid "Don't insert page breaks (form feed characters) between pages."
+msgstr "Don't insert page breaks (form feed characters) between pages."
+
+#. SettingsF..PageControl1..tsPdfToTxt..bNopgbrk..Caption
+#: Settings.dfm:213
+msgid "Don't insert page breaks"
+msgstr "Don't insert page breaks"
+
+#. SettingsF..PageControl1..tsPdfToTxt..cbEol..Hint
+#: Settings.dfm:223
+msgid "Sets the end-of-line convention to use for text output."
+msgstr "Sets the end-of-line convention to use for text output."
+
+#. SettingsF..PageControl1..tsPdfToTxt..cbEol....Items.Strings
+#: Settings.dfm:231
+msgid "dos"
+msgstr "dos"
+
+#. SettingsF..PageControl1..tsPdfToTxt..cbEol....Items.Strings
+#: Settings.dfm:232
+msgid "mac"
+msgstr "mac"
+
+#. SettingsF..PageControl1..tsPdfToTxt..cbEol....Items.Strings
+#: Settings.dfm:233
+msgid "unix"
+msgstr "unix"
+
+#. SettingsF..PageControl1..tsPdfToTxt..cbEncoding..Hint
+#. SettingsF..PageControl1..tsPdfToHtml..cbHEnc..Hint
+#: Settings.dfm:240
+#: Settings.dfm:577
+msgid "Sets the encoding to use for text output."
+msgstr "Sets the encoding to use for text output."
+
+#. SettingsF..PageControl1..tsPdfToTxt..bRaw..Hint
+#: Settings.dfm:257
+msgid "Keep the text in content stream order. No longer recommended."
+msgstr "Keep the text in content stream order. No longer recommended."
+
+#. SettingsF..PageControl1..tsPdfToTxt..bRaw..Caption
+#: Settings.dfm:258
+msgid "Text in content stream order"
+msgstr "Text in content stream order"
+
+#. SettingsF..PageControl1..tsPdfToTxt..bLayout....Hint
+#: Settings.dfm:270
+msgid "Maintain (as best as possible) the original physical layout of the text."
+msgstr "Maintain (as best as possible) the original physical layout of the text."
+
+#. SettingsF..PageControl1..tsPdfToTxt..bLayout..Caption
+#: Settings.dfm:271
+msgid "Try to maintain layout"
+msgstr "Try to maintain layout"
+
+#. SettingsF..PageControl1..tsPdfToTxt..bHtmlMeta..Hint
+#: Settings.dfm:281
+msgid "Generate a simple HTML file, including the meta information."
+msgstr "Generate a simple HTML file, including the meta information."
+
+#. SettingsF..PageControl1..tsPdfToTxt..bHtmlMeta..Caption
+#: Settings.dfm:282
+msgid "Generate a simple HTML file"
+msgstr "Generate a simple HTML file"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Caption
+#: Settings.dfm:289
+msgid "PDF to PPM"
+msgstr "PDF to PPM"
+
+#. SettingsF..PageControl1..tsPdfToPPM..bFreetype..Hint
+#: Settings.dfm:297
+msgid "Enable FreeType (a TrueType/Type 1 font rasterizer)."
+msgstr "Enable FreeType (a TrueType/Type 1 font rasterizer)."
+
+#. SettingsF..PageControl1..tsPdfToPPM..bFreetype..Caption
+#: Settings.dfm:298
+msgid "Freetype TrueType font rasterizer"
+msgstr "Freetype TrueType font rasterizer"
+
+#. SettingsF..PageControl1..tsPdfToPPM..baaVector..Hint
+#: Settings.dfm:306
+msgid "Enable anti-aliasing for vector in image output"
+msgstr "Enable anti-aliasing for vector in image output"
+
+#. SettingsF..PageControl1..tsPdfToPPM..baaVector..Caption
+#: Settings.dfm:307
+msgid "Vector anti-aliasing"
+msgstr "Vector anti-aliasing"
+
+#. SettingsF..PageControl1..tsPdfToPPM..bAa..Hint
+#: Settings.dfm:315
+msgid "Enable font anti-aliasing in image output."
+msgstr "Enable font anti-aliasing in image output."
+
+#. SettingsF..PageControl1..tsPdfToPPM..bAa..Caption
+#: Settings.dfm:316
+msgid "Font anti-aliasing"
+msgstr "Font anti-aliasing"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..Caption
+#: Settings.dfm:333
+msgid "Images quality"
+msgstr "Images quality"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..Label2..Caption
+#: Settings.dfm:340
+msgid "Choose quality presets:"
+msgstr "Choose quality presets:"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..cbQualityPresets..Hint
+#: Settings.dfm:347
+msgid "Simplified image quality settings"
+msgstr "Simplified image quality settings"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..cbQualityPresets..Text
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..cbQualityPresets....Items.Strings
+#: Settings.dfm:352
+#: Settings.dfm:358
+msgid "Picture"
+msgstr "Picture"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..cbQualityPresets....Items.Strings
+#. enable controls
+#: Settings.dfm:356
+#: Settings.pas:436
+msgid "Custom"
+msgstr "Custom"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..cbQualityPresets....Items.Strings
+#: Settings.dfm:357
+msgid "Photo"
+msgstr "Photo"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..cbQualityPresets....Items.Strings
+#: Settings.dfm:359
+msgid "Newspaper"
+msgstr "Newspaper"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox1..cbQualityPresets....Items.Strings
+#: Settings.dfm:360
+msgid "Only Text"
+msgstr "Only Text"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..Caption
+#: Settings.dfm:369
+msgid "Custom image quality:"
+msgstr "Custom image quality:"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..Label11..Caption
+#: Settings.dfm:376
+msgid "Resolution (DPI):"
+msgstr "Resolution (DPI):"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..edResolution..Hint
+#: Settings.dfm:383
+msgid "Specifies the resolution of image, in DPI."
+msgstr "Specifies the resolution of image, in DPI."
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..bColor..Hint
+#: Settings.dfm:394
+msgid "Generate a colour PPM Image file"
+msgstr "Generate a colour PPM Image file"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..bColor..Caption
+#: Settings.dfm:395
+msgid "Colour"
+msgstr "Colour"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..bGray..Hint
+#: Settings.dfm:403
+msgid "Generate a grayscale PGM Image file"
+msgstr "Generate a grayscale PGM Image file"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..bGray..Caption
+#: Settings.dfm:404
+msgid "Grayscale"
+msgstr "Grayscale"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..bMono..Hint
+#: Settings.dfm:414
+msgid "Generate a monochrome PBM Image file"
+msgstr "Generate a monochrome PBM Image file"
+
+#. SettingsF..PageControl1..tsPdfToPPM..Panel2..GroupBox2..bMono..Caption
+#: Settings.dfm:415
+msgid "Black / White"
+msgstr "Black / White"
+
+#. SettingsF..PageControl1..tsPdfToImg..Caption
+#: Settings.dfm:423
+msgid "PDF To Images"
+msgstr "PDF To Images"
+
+#. SettingsF..PageControl1..tsPdfToImg..bTryJpg..Hint
+#: Settings.dfm:431
+msgid "When possible Image will be extracted to JPEG files"
+msgstr "When possible Image will be extracted to JPEG files"
+
+#. SettingsF..PageControl1..tsPdfToImg..bTryJpg..Caption
+#: Settings.dfm:432
+msgid "Try to Save as JPEG"
+msgstr "Try to Save as JPEG"
+
+#. SettingsF..PageControl1..tsPdfToHtml..Caption
+#: Settings.dfm:437
+msgid "PDF to HTML"
+msgstr "PDF to HTML"
+
+#. SettingsF..PageControl1..tsPdfToHtml..Label9..Caption
+#: Settings.dfm:445
+msgid "Type of Images"
+msgstr "Type of Images"
+
+#. SettingsF..PageControl1..tsPdfToHtml..Label8..Caption
+#: Settings.dfm:452
+msgid "Zoom the pdf document"
+msgstr "Zoom the pdf document"
+
+#. SettingsF..PageControl1..tsPdfToHtml..Label10..Caption
+#: Settings.dfm:459
+msgid "Encoding for text output"
+msgstr "Encoding for text output"
+
+#. SettingsF..PageControl1..tsPdfToHtml..cbGsDevice..Hint
+#: Settings.dfm:466
+msgid "Format of output images"
+msgstr "Format of output images"
+
+#. SettingsF..PageControl1..tsPdfToHtml..edZoom..Hint
+#: Settings.dfm:522
+msgid "Html output will be zoomed out by % "
+msgstr "Html output will be zoomed out by % "
+
+#. SettingsF..PageControl1..tsPdfToHtml..cbXml..Caption
+#: Settings.dfm:537
+msgid "Output for XML"
+msgstr "Output for XML"
+
+#. SettingsF..PageControl1..tsPdfToHtml..cbNoMerge..Caption
+#: Settings.dfm:545
+msgid "Do not merge paragraphs"
+msgstr "Do not merge paragraphs"
+
+#. SettingsF..PageControl1..tsPdfToHtml..cbIgnoreImages..Caption
+#: Settings.dfm:553
+msgid "Ignore images"
+msgstr "Ignore images"
+
+#. SettingsF..PageControl1..tsPdfToHtml..cbIgnoreFrames..Caption
+#: Settings.dfm:561
+msgid "Ignore frames"
+msgstr "Ignore frames"
+
+#. SettingsF..PageControl1..tsPdfToHtml..cbHiddend..Caption
+#: Settings.dfm:569
+msgid "Output hidden text"
+msgstr "Output hidden text"
+
+#. SettingsF..PageControl1..tsPdfToHtml..cbExchangeLink..Caption
+#: Settings.dfm:596
+msgid "Exchange .pdf links by .html"
+msgstr "Exchange .pdf links by .html"
+
+#. SettingsF..PageControl1..tsPdfToHtml..cbComplex..Caption
+#: Settings.dfm:604
+msgid "Generate complex document"
+msgstr "Generate complex document"
+
+#. SettingsF..Panel1..btDefaults..Hint
+#: Settings.dfm:623
+msgid "Restore settings to factory defaults"
+msgstr "Restore settings to factory defaults"
+
+#. SettingsF..Panel1..btDefaults..Caption
+#: Settings.dfm:624
+msgid "Restore Defaults"
+msgstr "Restore Defaults"
+
+#. SettingsF..Panel1..btOk..Hint
+#: Settings.dfm:651
+msgid "Save all settings and close"
+msgstr "Save all settings and close"
+
+#. SettingsF..Panel1..btCancel..Hint
+#: Settings.dfm:681
+msgid "Abandon changes and close settings"
+msgstr "Abandon changes and close settings"
+
+#: About.pas:137
+msgid "Info about:"
+msgstr "Info about:"
+
+#: About.pas:140
+msgid "Version:"
+msgstr "Version:"
+
+#: About.pas:141
+msgid "Last update:"
+msgstr "Last update:"
+
+#: About.pas:142
+msgid "Author:"
+msgstr "Author:"
+
+#. Programmer's name for it: XpdfErrorsMsg0
+#: Main.pas:222
+msgid "No error."
+msgstr "No error."
+
+#. Programmer's name for it: XpdfErrorsMsg1
+#: Main.pas:223
+msgid "Error opening a PDF file."
+msgstr "Error opening a PDF file."
+
+#. Programmer's name for it: XpdfErrorsMsg2
+#: Main.pas:224
+msgid "Error opening an output file."
+msgstr "Error opening an output file."
+
+#. Programmer's name for it: XpdfErrorsMsg3
+#: Main.pas:225
+msgid "Error related to PDF permissions."
+msgstr "Error related to PDF permissions."
+
+#. Programmer's name for it: XpdfErrorsMsg99
+#: Main.pas:226
+msgid "Other error."
+msgstr "Other error."
+
+#. Programmer's name for it: sExitCode
+#: Main.pas:227
+msgid "Exit Code"
+msgstr "Exit Code"
+
+#: Main.pas:250
+msgid "Performing Conversion...please wait"
+msgstr "Performing Conversion...please wait"
+
+#: Main.pas:270
+msgid "Page"
+msgstr "Page"
+
+#: Main.pas:279
+msgid "Image"
+msgstr "Image"
+
+#: Main.pas:368
+msgid "All images"
+msgstr "All images"
+
+#: Main.pas:485
+msgid "Waiting process timeout"
+msgstr "Waiting process timeout"
+
+#: Main.pas:780
+msgid "Please type input PDF file name"
+msgstr "Please type input PDF file name"
+
+#: Main.pas:787
+msgid "Please type output file name"
+msgstr "Please type output file name"
+
+#. add file lines to output window
+#: Main.pas:855
+msgid "PDF CONTENT:"
+msgstr "PDF CONTENT:"
+
+#: Main.pas:862
+msgid "Unable to read out text file (pdftotext)"
+msgstr "Unable to read out text file (pdftotext)"
+
+#: Main.pas:879
+msgid "PDF FILE INFORMATION:"
+msgstr "PDF FILE INFORMATION:"
+
+#: Main.pas:906
+#: Main.pas:960
+msgid "Do you want to overwrite existent image files ?"
+msgstr "Do you want to overwrite existent image files ?"
+
+#. ensure to destination directory exist!
+#: Main.pas:1016
+msgid "Unable to create destination directory"
+msgstr "Unable to create destination directory"
+
+#. test overwrite
+#: Main.pas:1023
+msgid "Do you want to overwrite existent files ?"
+msgstr "Do you want to overwrite existent files ?"
+
+#: Main.pas:1262
+msgid "there are no files to show"
+msgstr "there are no files to show"
+
+#. Programmer's name for it: unabletolocate
+#: Settings.pas:135
+msgid "Unable to locate %s on selected path!"
+msgstr "Unable to locate %s on selected path!"
+
+#. #ToDo1: load available encoding for text output (file XXX.unicodeMap) http://www.foolabs.com/xpdf/download.html
+#: Settings.pas:212
+#: Settings.pas:213
+#: Settings.pas:214
+msgid "Browse for"
+msgstr "Browse for"
+
+#: Settings.pas:545
+#: Settings.pas:586
+#: Settings.pas:600
+msgid "found!"
+msgstr "found!"
+
+#: Settings.pas:657
+msgid "New language will be loaded to next startup"
+msgstr "New language will be loaded to next startup"
+
+#~ msgid "For More information see:"
+#~ msgstr "For More information see:"
+#~ msgid "OK"
+#~ msgstr "OK"
+#~ msgid "http://www.foolabs.com/xpdf/home.html"
+#~ msgstr "http://www.foolabs.com/xpdf/home.html"
+#~ msgid "Copyright 1996-2007 Glyph & Cog, LLC"
+#~ msgstr "Copyright 1996-2007 Glyph & Cog, LLC"
+#~ msgid "http://pdftohtml.sourceforge.net/"
+#~ msgstr "http://pdftohtml.sourceforge.net/"
+#~ msgid "Copyright 1999-2003 Gueorgui Ovtcharov and Rainer Dorsch"
+#~ msgstr "Copyright 1999-2003 Gueorgui Ovtcharov and Rainer Dorsch"
+#~ msgid "Copyright 1996-2004 Glyph & Cog, LLC"
+#~ msgstr "Copyright 1996-2004 Glyph & Cog, LLC"
+#~ msgid "pkPdfConverter"
+#~ msgstr "pkPdfConverter"
+#~ msgid "*"
+#~ msgstr "*"
+#~ msgid "PdfToText"
+#~ msgstr "PdfToText"
+#~ msgid "PdfToPpm"
+#~ msgstr "PdfToPpm"
+#~ msgid "PdfToImg"
+#~ msgstr "PdfToImg"
+#~ msgid "Courier New"
+#~ msgstr "Courier New"
+#~ msgid "Latin1"
+#~ msgstr "Latin1"
+
