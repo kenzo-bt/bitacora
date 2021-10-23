@@ -3,3 +3,5 @@ ls | %{Rename-Item $_ -NewName ("{0}.ppm" -f $nr++)}
 https://anyconv.com/ppm-to-png-converter/
 
 pkpdfconverter.exe
+
+get-childitem *.png | rename-item -newname { [string]($_.name).substring(46) }
