@@ -47,30 +47,47 @@ else:
                 continue
 
             # handle images
-            if len(x) > 1 and x[-2] == '-':
-                if x.split('-')[1] == 'iFull':
+            if len(x) > 1 and x[-2] == '@':
+                if x.split('@')[1] == 'iFull':
                     newFile.write('<div class=\'imgFull\'>\n')
-                    newFile.write('\t<img src=\'' + imgPath + x.split('-')[2] + imgExtension + '\'>\n')
+                    newFile.write('\t<img src=\'' + imgPath + x.split('@')[2] + imgExtension + '\'>\n')
                     newFile.write('</div>\n<br>\n')
-                elif x.split('-')[1] == 'iText':
-                    imgWidth = int(x.split('-')[3])
+                elif x.split('@')[1] == 'iText':
+                    imgWidth = int(x.split('@')[3])
                     textWidth = 90 - imgWidth
                     newFile.write('<div class=\'imgWithText\'>\n')
-                    newFile.write('\t<img src=\'' + imgPath + x.split('-')[2] + imgExtension + '\' style=\'width: ' + str(imgWidth) + '%\'>\n')
+                    newFile.write('\t<img src=\'' + imgPath + x.split('@')[2] + imgExtension + '\' style=\'width: ' + str(imgWidth) + '%\'>\n')
                     newFile.write('\t<div class=\'textImg\' style=\'' + 'width: ' + str(textWidth) + '%' + '\'>\n')
-                    newFile.write('\t\t' + x.split('-')[4] + '\n')
+                    newFile.write('\t\t' + x.split('@')[4] + '\n')
                     newFile.write('\t</div>\n')
-                    newFile.write('</div>\n<br>\n')
-                elif x.split('-')[1] == 'iRow':
-                    numImages = int(x.split('-')[2])
+                    newFile.write('</div>\n<br><br>\n')
+                elif x.split('@')[1] == 'iRow':
+                    numImages = int(x.split('@')[2])
                     imgWidth = int(100 / numImages)
-                    sources = x.split('-')[3].split('.')
+                    sources = x.split('@')[3].split('.')
                     newFile.write('<div class=\'imgRowWrapper\'>\n')
                     newFile.write('\t<div class=\'imgRow\'>\n')
                     for src in sources:
                         newFile.write('\t\t<img src=\'' + imgPath + src + imgExtension + '\' style=\'width: ' + str(imgWidth) + '%\'>\n')
                     newFile.write('\t</div>\n')
-                    newFile.write('</div>\n<br>\n')
+                    newFile.write('</div>\n<br><br>\n')
+                elif x.split('@')[1] == 'iRow2':
+                    numImages = int(x.split('@')[2])
+                    imgWidth = int(100 / numImages)
+                    sources = x.split('@')[3].split('.')
+                    descriptions = x.split('@')[4].split('||')
+                    newFile.write('<div class=\'imgRowWrapper\'>\n')
+                    newFile.write('\t<div class=\'imgRow\'>\n')
+                    for src in sources:
+                        newFile.write('\t\t<img src=\'' + imgPath + src + imgExtension + '\' style=\'width: ' + str(imgWidth) + '%\'>\n')
+                    newFile.write('\t</div>\n')
+                    newFile.write('\t<div class=\'imgRow\'>\n')
+                    for desc in descriptions:
+                        newFile.write('\t\t<div class=\'imgRowDesc\' style=\'width: ' + str(imgWidth) + '%\'>\n')
+                        newFile.write('\t\t\t' + desc + '\n')
+                        newFile.write('\t\t</div>\n')
+                    newFile.write('\t</div>\n')
+                    newFile.write('</div>\n<br><br><br>\n')
                 continue
 
             # handle paragraphs

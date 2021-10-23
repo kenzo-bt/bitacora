@@ -160,7 +160,8 @@ function setSlideContent(){
       )}
       ${insertRow(
         [
-          createSingle(`${imgPath}/3/elisaFace.png`, 'Elisa Shironoshita Shirazawa', '1925 - 2016', './elisaTsuruko.html')
+          createSingle(`${imgPath}/4/zoilaFace.png`, 'Zoila Shironoshita Shirazawa', '1927 - Presente', './zoilaKazuko.html'),
+          createSingle(`${imgPath}/5/victoriaFace.png`, 'Victoria Shironoshita Shirazawa', '1929 - 2015', './victoriaHiruko.html')
         ]
       )}
       ${insertRow(
