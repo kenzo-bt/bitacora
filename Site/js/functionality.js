@@ -118,11 +118,12 @@ function setSlideContent(){
   titlePage.innerHTML = titleContent;
   //// IntroSlide
   let introText = `
-    Este es el lugar de las memorias de los descendientes de dos inmigrantes japoneses al Perú: Kesakichi Shironoshita y Fumi Shirazawa. Su primera hija nació en 1919.
-    <br/><br/>Estas páginas pretenden hacer un recuento perfectamente imperfecto de sus vidas y la de sus descendientes.
-    <br/><br/>Perfecto porque nos ayuda a todos saber de donde  y de quienes venimos. Perfecto porque puede aportar un granito de arena a la investigación sobre la historia del éxodo del cual ellos formaban parte.
-    <br/><br/>Imperfecto, porque es imposible rememorar cada instante. Imperfecto porque escogemos lo que queremos contar. Imperfecto porque quedan tantos misterios e incógnitas imposibles de desvelar, o que se van desvelando con el correr del tiempo.
-    <br/><br/>Para la familia, amigos, y curiosos.`;
+    Este es el lugar de las memorias de los descendientes de dos inmigrantes japoneses al Perú: Kesakichi Shironoshita y Fumi Shirazawa.
+    <br><br>Estas páginas pretenden hacer un recuento perfectamente imperfecto de sus vidas y la de sus descendientes.
+    <br><br>Perfecto porque nos ayuda a todos saber de donde  y de quienes venimos. Perfecto porque puede aportar un granito de arena a la investigación sobre la historia del éxodo del cual ellos formaban parte.
+    <br><br>Imperfecto, porque es imposible rememorar cada instante. Imperfecto porque escogemos lo que queremos contar. Imperfecto porque quedan tantos misterios e incógnitas imposibles de desvelar, o que se van desvelando con el correr del tiempo.
+    <br><br>Para la familia, amigos, y curiosos.
+  `;
   let introSlide = `
     <div class='introContent'>
       ${introText}
@@ -166,7 +167,8 @@ function setSlideContent(){
       )}
       ${insertRow(
         [
-          createSingle(`${imgPath}/3/elisaFace.png`, 'Elisa Shironoshita Shirazawa', '1925 - 2016', './elisaTsuruko.html')
+          createSingle(`${imgPath}/6/emilioFace.png`, 'Emilio Shironoshita Shirazawa', '1931 - 2010', './emilioMoritoshi.html'),
+          createSingle(`${imgPath}/7/luciaFace.png`, 'Lucia Shironoshita Shirazawa', '1936 - Presente', './luciaSueko.html')
         ]
       )}
       </div>
