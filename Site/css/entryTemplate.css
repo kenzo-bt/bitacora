@@ -1,5 +1,4 @@
 
-
 body{
   background-image: url('../img/backTexturedPaperEdit.jpg');
   background-repeat: repeat;
@@ -66,7 +65,7 @@ body{
 }
 
 #siteIdentity{
-  width: 30vw;
+  width: 60vw;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -121,6 +120,7 @@ body{
   align-items: center;
   background-color: white;
   z-index: 0;
+  padding-top: 4vh;
 }
 
 #kanjiBig{
