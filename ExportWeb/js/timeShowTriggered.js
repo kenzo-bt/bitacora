@@ -18,3 +18,5 @@ const showTime = () => {
 const showElem = id => {
   document.getElementById(id).style.opacity = 1;
 }
+
+showTime();
