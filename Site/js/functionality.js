@@ -123,6 +123,8 @@ function setSlideContent(){
     <br><br>Perfecto porque nos ayuda a todos saber de donde  y de quienes venimos. Perfecto porque puede aportar un granito de arena a la investigación sobre la historia del éxodo del cual ellos formaban parte.
     <br><br>Imperfecto, porque es imposible rememorar cada instante. Imperfecto porque escogemos lo que queremos contar. Imperfecto porque quedan tantos misterios e incógnitas imposibles de desvelar, o que se van desvelando con el correr del tiempo.
     <br><br>Para la familia, amigos, y curiosos.
+    <br><br>NOTA:
+    <br><br>La información provista en este documento viene de conversaciones con diferentes miembros  de la familia y documentos históricos como kosekis, pasaportes, fichas de investigación creadas  por Verónica Cock creo y otros. Además, solo pretende dar una idea general de la evolución de  la familia en los aproximadamente 100 años que cubren muy someramente estas narraciones.
   `;
   let introSlide = `
     <div class='introContent'>
