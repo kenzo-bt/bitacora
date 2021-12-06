@@ -51,7 +51,7 @@ function setVariables(){
   sliderPosition = 0;
   bodySlider = document.getElementById('sliderWrapper');
   arrows = document.getElementsByClassName('slideArrow');
-  imgPath = '../img/';
+  imgPath = './img/';
 }
 
 function generateSlides(){
